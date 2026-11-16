@@ -1,0 +1,65 @@
+:root {
+    --hitam: rgb(22, 18, 18);
+    --abu: rgb(23, 27, 34);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: var(--abu);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.icon-kanan-navbar img {
+    background-color: var(--hitam);
+    border: 1px solid rgb(53, 52, 52);
+    border-radius: 5px;
+    padding: 5px;
+    width: 20%;
+}
+.kanan-navbar a{
+    background-color: var(--hitam);
+    text-decoration: none;
+    color: grey;
+}
+.icon-kanan-navbar {
+    display: flex;
+    gap: 5px;
+    width: 200px;
+    justify-content: end;
+}
+
+.kanan-navbar {
+    width: 30%;
+    gap: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.kiri-navbar {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.kiri-navbar p {
+    color: grey;
+}
