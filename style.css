@@ -18,7 +18,7 @@ body {
 nav {
     display: flex;
     width: 100%;
-    height: 10%;
+    height: 8%;
     background-color: var(--abu);
     justify-content: space-between;
     align-items: center;
@@ -33,11 +33,16 @@ nav {
     padding: 5px;
     width: 20%;
 }
-.kanan-navbar a{
+
+.kanan-navbar a {
     background-color: var(--hitam);
     text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid rgb(53, 52, 52);
+    padding: 2%;
     color: grey;
 }
+
 .icon-kanan-navbar {
     display: flex;
     gap: 5px;
